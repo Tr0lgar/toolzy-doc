@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     header.className = 'header';
     header.innerHTML = `
     <div class="nav-container">
-      <div><img src="../images/toolzi-logo.png"> <p class="logo">Toolzy</p></div>
+      <div><img src="./images/toolzi-logo.png"> <p class="logo">Toolzy</p></div>
       <nav>
         <ul class="nav-links">
           <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
