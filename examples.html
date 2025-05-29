@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples - Toolzy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="common/header.js" defer></script>
+    <script src="common/footer.js" defer></script>
+    <script src="common/common.js" defer></script>
+</head>
+<body>
+<!-- Main Content -->
+<main class="main-content">
+    <!-- Examples Section -->
+    <section id="examples" class="section active">
+        <div class="container">
+            <h2>Usage examples</h2>
+            <p>Discover how to integrate Toolzy into your projects with these practical examples.</p>
+    
+            <h3>Basic example</h3>
+            <div class="code-block">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <code>import { randomInt } from 'toolzy';<br><br>// Generate a random number for a dice game<br>const diceRoll = randomInt(1, 6);<br>console.log(`You rolled: ${diceRoll}`);<br><br>// Generate a simple random ID<br>const randomId = randomInt(1000, 9999);<br>console.log(`Generated ID: ${randomId}`);</code>
+            </div>
+    
+            <h3>Using in TypeScript</h3>
+            <div class="code-block">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <code>import { randomInt } from 'toolzy';<br><br>interface GameSettings {<br>  minPlayers: number;<br>  maxPlayers: number;<br>}<br><br>const gameConfig: GameSettings = {<br>  minPlayers: 2,<br>  maxPlayers: 8<br>};<br><br>const playerCount: number = randomInt(<br>  gameConfig.minPlayers, <br>  gameConfig.maxPlayers<br>);<br><br>console.log(`Number of players: ${playerCount}`);</code>
+            </div>
+            
+            <h3>Advanced use cases</h3>
+            <p>Here are some ideas for using Toolzy in your projects:</p>
+            <ul style="color: var(--text-secondary); margin-left: 2rem; margin-top: 1rem;">
+                <li><strong>Games:</strong> Random number generation for dice, cards, positions</li>
+                <li><strong>Tests:</strong> Creation of random test data</li>
+                <li><strong>UI/UX:</strong> Random rotation of interface elements</li>
+            </ul>
+        </div>
+    </section>
+</main>
+</body>
+</html>

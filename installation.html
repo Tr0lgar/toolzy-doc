@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installation - Toolzy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="common/header.js" defer></script>
+  <script src="common/footer.js" defer></script>
+  <script src="common/common.js" defer></script>
+</head>
+<body>
+<!-- Main Content -->
+<main class="main-content">
+  <!-- Installation Section -->
+  <section id="installation" class="section active">
+    <div class="container">
+      <h2>Installation</h2>
+      <p>Start using Toolzy in a few simple steps.</p>
+  
+      <h3>Prerequisites</h3>
+      <p>This project requires the following dependencies:</p>
+      <ul style="color: var(--text-secondary); margin-left: 2rem;">
+        <li><strong>Programming language:</strong> TypeScript</li>
+        <li><strong>Package manager:</strong> npm</li>
+      </ul>
+  
+      <h3>Package installation</h3>
+      <div class="installation-step">
+        <span class="step-number">1</span>
+        <strong>Install Toolzy in your project:</strong>
+      </div>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>npm install toolzy</code>
+      </div>
+
+      <div class="installation-step">
+        <span class="step-number">2</span>
+        <strong>Import the necessary methods:</strong>
+      </div>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>import { randomInt } from 'toolzy';</code>
+      </div>
+      
+      <div class="installation-step">
+        <span class="step-number">3</span>
+        <strong>Use in your code:</strong>
+      </div>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>const number = randomInt(0, 10);<br>console.log(number); // Number between 0 and 10</code>
+      </div>
+      
+      <h3>Installation for development</h3>
+      <p>If you want to contribute to the project or use it from source:</p>
+
+      <div class="installation-step">
+        <span class="step-number">1</span>
+        <strong>Clone the repository:</strong>
+      </div>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>git clone https://github.com/Tr0lgar/toolzy</code>
+      </div>
+      
+      <div class="installation-step">
+        <span class="step-number">2</span>
+        <strong>Navigate to the project directory:</strong>
+      </div>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>cd toolzy</code>
+      </div>
+      
+      <div class="installation-step">
+        <span class="step-number">3</span>
+        <strong>Install dependencies:</strong>
+      </div>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>npm install</code>
+      </div>
+      
+      <h3>🧪 Tests</h3>
+      <p>Toolzy uses the Vitest testing framework. Run the test suite with:</p>
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <code>npm test</code>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
