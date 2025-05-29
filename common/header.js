@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <ul class="nav-links">
           <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
           <li><a href="installation.html" class="nav-link" id="nav-installation">Installation</a></li>
-          <li><a href="lib.html" class="nav-link" id="nav-lib">Lib</a></li>
+          <li><a href="lib.html" class="nav-link" id="nav-lib">Documentation</a></li>
           <li><a href="examples.html" class="nav-link" id="nav-examples">Examples</a></li>
         </ul>
       </nav>
